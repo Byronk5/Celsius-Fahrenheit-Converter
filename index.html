@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Celsius to Fahrenheit Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center heading">Celsius to Fahrenheit Converter</h2>
+      <form id="form">
+        <div id="celsius-input" class="text-center">
+          <label for="celsius">Celsius</label>
+          <input type="number" id="celsius-number" placeholder="&deg;C" />
+        </div>
+        <div id="calculate" class="text-center">
+          <input id="convert" type="submit" value="Calculate" />
+        </div>
+        <div id="loading">
+          <img
+            class="loading-img"
+            src="https://media.giphy.com/media/4ZgLPakqTajjVFOVqw/source.gif"
+          />
+        </div>
+        <div id="fahernheit-output" class="text-center">
+          <label for="Fahrenheit">Fahrenheit</label>
+          <input type="number" id="fahrenheit-number" placeholder="&deg;F" />
+        </div>
+        <div id="clear-temp" class="text-center">
+          <input type="submit" value="Clear" />
+        </div>
+      </form>
+
+      <div id="background-images">
+        <img class="image-1" src="/img/aaron-burden-5AiWn2U10cw-unsplash.jpg" />
+        <img class="image-2" src="/img/andreas-m-cneUxtFy0Vo-unsplash.jpg" />
+        <img class="image-3" src="/img/arno-smit-sKJ7zSylUao-unsplash.jpg" />
+        <img
+          class="image-4"
+          src="/img/timothy-eberly-yuiJO6bvHi4-unsplash.jpg"
+        />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
