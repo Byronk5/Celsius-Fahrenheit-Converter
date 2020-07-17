@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Merienda', cursive;
+  background: url(/img/paul-berthelon-bravo-BGXhuJIbx78-unsplash.jpg) center
+    center/cover;
 }
 
 .container {

@@ -1,6 +1,5 @@
 document.getElementById('form').addEventListener('submit', calculateTemp);
 
-//UI
 const celsius = document.getElementById('celsius-number');
 const fahrenheit = document.getElementById('fahrenheit-number');
 
