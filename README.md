@@ -1,2 +1,2 @@
 # Celsius-Fahrenheit-Converter
-A single page app that converts temperatures in Celsius to Fahrenheit
+A web page that converts temperatures in Celsius to Fahrenheit
